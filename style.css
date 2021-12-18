@@ -1,0 +1,783 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;  
+}
+
+h1
+{
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+}
+
+a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+
+/******** Komansman Bar paj yo**********/
+
+.barindex
+{
+    width: 50%;
+    height: 1px;
+    background-color: white;
+    margin: 4px 25%;
+}
+
+#barsection
+{
+    background-color:black;
+    width: 80%;
+    height: 1px;
+    margin: 30px 10%;
+}
+
+.barfooter
+{
+    background-color: white;
+    height: 1px;
+    margin: 20px 15%;
+}
+
+#barreservation
+{
+    background-color: #cfcfcf;
+    width: 70%;
+    height: 1px;
+    margin: 0 15% 40px;
+}
+
+/* Fen bar yo*/
+
+
+
+/*  Komansman meni an */
+
+nav
+{
+    background-color: #d08316;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 100%;
+    line-height: 80px;
+    height: 80px;
+    position: fixed; 
+    display: inline-block; 
+    margin: 0;
+    padding: 0;
+}
+
+#menu ul
+{
+    list-style-type: none;
+    padding-right: 50px;
+    
+}
+
+#menu{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+#menu li
+{
+display: inline-block;
+}
+
+.menudroit ul
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#menu a
+{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    display: block;
+    text-transform: uppercase;
+    padding: 0 25px;
+}
+
+#menu .menudroit a:hover
+{
+    background-color: white;
+    color: #d08316;
+}
+
+.active
+{
+    border-bottom: 4px solid white;
+}
+
+
+/******** Fen meni an********/
+
+
+/*******Premiere section********/
+ /*Page d'acceuil*/
+
+.section1
+{
+    height: 650px;
+}
+
+.section1 .imageprincipale
+{
+    background-image: url(media/Hotel\ la1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 200px 0 300px 0;
+    height: 700px;   
+}
+
+.section1 .textprincipale h1
+{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 6em;
+    text-shadow: 1px 3px 2px black;
+}
+
+.section1 p
+{
+    text-align: center;
+    color: antiquewhite;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+
+/*Page d'acceuil fin*/
+
+/* Page Chambre*/
+
+.section3
+{
+    height: 350px;
+}
+
+.imagechambre
+{
+    background-image: url(media/chambre.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0 250px 0;
+    height: 350px;
+
+}
+
+.imagechambre h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    text-shadow: 1px 3px 2px black;
+}  
+
+.chambre1 h3
+{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.chambre1
+{
+    height: 450px;
+    width: 212px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.chambre1 h3, .chambre1 p
+{
+    text-align: center;
+    margin: 7px 0;
+    text-transform: uppercase;
+}
+
+.b1
+{
+    width:150px;
+    line-height:30px;
+    background-color: #d08316;
+    border-radius: 30px;
+    text-align:center;
+    margin: 0 12% 0 12%;
+    height: 30px;
+    transition: 0.4s;
+}
+
+.b1:hover
+{
+    transform: scale(1.1);
+}
+
+.b1 a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.chambre1 img
+{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.chambre1
+{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.452);
+}
+
+.chambre1 h2
+{
+    text-align: center;
+    font-size: 3em;
+    color: #d08316;
+}
+
+/*Page de chambre*/
+
+/* Page restaurant*/
+
+.imageresto
+{
+    background-image: url(media/restoback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0 250px 0;
+    height: 350px;
+}
+
+.imageresto h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    text-shadow: 1px 3px 2px black;
+}
+
+.section2 .titrecuisine
+{
+    text-align: center;
+    font-size: 3em;
+    color: #d08316; 
+    text-decoration: underline;
+}
+
+.section2 .titrecuisine1
+{
+    text-align: center;
+    font-size: 1,5em;
+    font-weight: bolder;
+    margin: 5px 0 0 0;
+    text-transform: uppercase;
+}
+
+.images
+{   padding: 30px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.image h4
+{
+    text-align: center;
+   text-transform: uppercase;
+    margin: 15px;
+}
+
+.image img
+{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.452);
+}
+
+.image img:hover
+{
+    transform: scale(1.05);
+     transition: 0.6s ease-in-out;
+}
+
+.resto1 img
+{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.452);
+    border-radius: 30px;
+}
+
+.resto1
+{
+    height: 350px;
+    width: 212px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.452);
+    text-align: center;
+}
+
+.resto1 img
+{    
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.resto1 h2
+{
+    text-align: center;
+    font-size: 3em;
+    color: #d08316;  
+}
+
+/*page restaurant*/
+
+/*Page reservation*/
+
+.imagereservation
+{
+    background-image: url(media/reservationimage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 150px 0 250px 0;
+    width: 100%;
+    height: 350px;
+}
+
+.imagereservation h1
+{
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 4em;
+    text-shadow: 1px 3px 2px black; 
+}
+
+.section6
+{
+    background-color: #cfcfcf;
+    padding: 20px 0 70px 0;
+    border-radius: 50px;
+    height: 900px;
+}
+
+.reservationform
+{
+    background-color: white;
+    width: 30%;
+    height: 750px;
+    margin: 50px 0 20px 35%;
+    border-radius: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 30px 20px 0 20px;
+}
+
+.reservationform h1
+{
+    font-size: 2.5em;
+    margin: 0 0 3px;
+}
+
+#date
+{
+    padding: 9px 10px;
+    display: flex;
+    justify-content: space-between;
+    border:2px solid black; 
+    width: 100%;   
+}
+
+.jours, .mois
+{
+    display: flex;
+}
+
+.part2
+{
+    margin-bottom: 30px;
+}
+
+.infoperso
+{
+    height: 20px;
+    width: 70%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.soumettre
+{
+    width:150px;
+    height: 50px;
+    line-height:50px;
+    background-color: #d08316;
+    border-radius: 30px;
+    text-align:center;
+    margin: 0 32%;
+    color: white;
+    font-weight: bolder;  
+}
+
+.soumettre a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.soumettre:hover
+{
+    transform: scale(1.13);
+    transition: 0.3s ease-in-out;
+}
+
+.reservationbg
+{
+    background-color: #cfcfcf;
+}
+
+.bgcolor1
+{
+    background-color: #d08316;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    height: 900px;
+}
+
+/*Page reservation*/
+
+/*Page de contact*/
+
+.bgcolor2
+{
+    background-color: #d08316;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+    height: 1300px;
+}
+
+.section7
+{
+    background-color: #cfcfcf;
+    padding: 20px 0 70px 0;
+    border-radius: 50px;
+    height: 1300px;
+}
+
+.membre h1
+{
+    text-align: center;
+    font-size: 2em;
+    color: #d08316;
+}
+
+.membre p
+{
+    font-weight: bolder;
+    color: white;
+    background-color: #d08316;
+    border-radius: 20px;
+
+}
+
+.photo
+{
+    justify-content: space-between;
+    display: flex;
+    margin: 30px;
+}
+
+.photo1 p
+{
+    text-align: center;
+}
+
+/*Fin premiere section*/
+
+
+/*****Debut deuxieme section****/
+
+.bgcolor
+{
+    background-color: #d08316;
+    border-top-left-radius: 150px;
+    border-top-right-radius: 150px;
+}
+
+.section2
+{
+    background-color: #cfcfcf;
+    padding: 20px 0 70px 0;
+    border-radius: 50px;
+}
+
+.section2 .text1
+{
+text-align: center;
+padding: 0 20%;
+}
+
+.section2 .text1 h1
+{
+    color: #d08316;
+    font-size: 3em;
+}
+
+.section2 .text1 p
+{
+    color: black;
+    font-size: 1em;
+}
+
+.bouton
+{
+    width:150px;
+    line-height:50px;
+    background-color: #d08316;
+    border-radius: 30px;
+    text-align:center;
+    margin: 0 45%; 
+}
+
+.bouton a 
+{
+    vertical-align:middle;
+    background:url(images/bouton-noir.png) no-repeat;
+    color:white;
+    text-decoration:none;
+    font-weight: bolder;
+}
+
+.bouton:hover
+{
+    text-decoration: none;
+    color: white;
+    transform: scale(1.2);
+    transition: 0.3 ease-in-out;
+}
+
+.text12 p
+{
+    color: black;
+    font-size: 1em;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.text12
+{
+text-align: center;
+padding: 0 20%;
+}
+
+.text12 h1
+{
+    color: #d08316;
+    font-size: 3em;
+}
+
+.imagesecondaire
+{
+    display: flex;
+    padding: 0 10%;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.imagesecondaire img
+{
+ border-radius: 30px;
+ box-shadow: 5px 0px 10px black;
+}
+
+.contact1
+{
+    margin: 100px 0 0 0;
+    text-align: center;
+
+}
+
+.contact1 h1
+{
+    font-size: 2.7em;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.information
+{
+    display: flex;
+    margin: 50px 10% 20px 10%;
+    justify-content: space-around;
+
+}
+
+.adresse
+{
+    background-color: white;
+    height: 150px;
+    width: 50%;
+    margin: 0 20px;
+    border-radius: 15px;
+
+}
+
+.adresse p, .adresse1
+{
+    margin: 15px 10px;
+    text-align: left;
+    padding: 0 18.5%;
+}
+
+.adresse1
+{
+    background-color: white;
+    height: 100px;
+    width: 50%;
+    margin:25px 5px;
+    border-radius: 15px;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.takeinfo
+{
+    display: flex;
+    justify-content: space-between;
+    margin:0 15%;
+}
+
+.takeinfo2
+{
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    padding: 50px 0;
+    border-radius: 20px;
+}
+
+#bgy
+{
+    width: 220px;
+    height: 35px;
+    text-align: center;
+}
+
+
+/*****Fin deuxieme section****/
+
+
+
+/*****Footer*****/
+
+footer
+{
+    background-color: #d08316;
+    color: #f7f7f7;
+    padding: 20px 0 10px 0 ;
+}
+
+footer div
+{
+    margin:5px 0 ;
+    font-weight: lighter; 
+}
+
+.copyright 
+{
+    text-align: center;
+    color: #FFFAE1;
+}
+
+#copyrightEtIcons
+{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+
+#copyright 
+{
+    width: 50%;
+    text-align: left;
+    color: #FFFAE1;
+}
+
+#icons 
+{
+    width: 50%;
+    text-align: right;
+    margin: 10px 9% 30px;
+}
+
+#icons a 
+{
+    display: inline-block;
+    padding: 0 15px;
+    font-size: 1.3em;
+    color: #FFFAE1;
+}
+
+#icons a:hover 
+{
+    transform: scale(1.5);
+    transition: 0.1s;
+}
+  
+#titrefooter
+{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+.commentaire
+{
+    width: 30%;
+    height: 35px;
+    margin: 15px 35% 5px;
+    text-align: center;
+}
+
+.commentaire1 h2
+{
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.04em;
+}
+
+.b2
+{
+    text-align: center;
+    background-color: white;
+    width: 10%;
+    height: 20px;
+    border-radius: 30px;
+    margin: 0 45%;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+/*****Footer*****/
